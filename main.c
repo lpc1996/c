@@ -40,7 +40,7 @@ void print_time(){
 	Time *time = NULL;
 	do{
 		time = get_time();
-		printf("Now time:%d年%02d月%02d日    %2d:%2d:%2d\n",time->year,time->mon,time->day,time->hour,time->minute,time->seconds);
+		printf("Now time:%d年%02d月%02d日    %02d:%02d:%02d\n",time->year,time->mon,time->day,time->hour,time->minute,time->seconds);
 		sleep(1);
 	}while(1);
 }
